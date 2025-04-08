@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+*/
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #87cefa;
+}
+
+.pages a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111;
+}
+
+.pages a:active {
+    color: #87cefa;
+    border-bottom: 4px solid #87cefa;
+}
+
+.nav-btn .btn {
+    padding: 12px 22px;
+    color: #fff;
+    background-color: #1e90ff ;
+    border: none;
+    border-radius: 8px;
+}
+
+.main-first {
+    margin-top: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-info {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first-info h3 {
+    color: #1e90ff;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.first-info h1 {
+    padding-top: 5px;
+    font-size: 38px;
+}
+b {
+    color: #1e90ff;
+}
+
+.first-info p {
+    font-size: 12px;
+    color: #555;
+    padding: 10px 0;
+}
+
+.first-btn, .second-btn {
+    width: 150px;
+    height: 50px;
+}
+
+.first-btn {
+    color: #fff;
+    background-color: #1e90ff ;
+    border: none;
+    border-radius: 8px;
+}
+
+.second-btn {
+    position: relative;
+    left: 30px;
+    background-color: #fff;
+    border: 1px solid silver;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+.first-image img {
+    width: 400px;
+    height: 400px;
+}
+
+.second-image img {
+    width: 400px;
+    height: 300px;
+}
+
+.main-second {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-third {
+    margin-top: 100px;
+}
+
+.main-third h1 {
+    text-align: center;
+    color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.items {
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#item {
+    width: 33%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#item p {
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.items img {
+    width: 150;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.main-for {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.main-for h1 {
+    position: relative;
+    left: 83px;
+    color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.infos {
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#inf {
+    position: relative;
+    left: 83px;
+    border: 1px solid #87cefa;
+    border-left: 70px solid #1e90ff;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 30px 70px;
+}
+
+#inf p {
+    color: #999;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 20px;
+}
+
+h5 b {
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #666;
+}
+h5 {
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #999;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.dev {
+    position: relative;
+    right: 350px;
+    top: 27px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.main-five {
+    background-color: #f8f8fa;
+    padding: 50px 0;
+}
+
+.main-five h1{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #1e90ff;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-five p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mail {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #87cefa;
+    width: 500px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.mail-logo img {
+    width: 50px;
+    height: 40px;
+}
+
+.email input {
+    box-sizing: border-box;
+    position: relative;
+    right: 10px;
+    padding-left: 20px;
+    padding-right: 100px;
+    border: none;
+    font-size: 15px;
+    background-color: #f8f8fa;
+    width: 200;
+    height:  50px;
+}
+
+.send {
+    color: #fff;
+    background-color: #1e90ff ;
+    border: none;
+    border-radius: 8px;
+    width: 80px;
+    height: 40px;
+}
+
+.up {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+#p {
+    color: #666;
+    line-height: 30px;
+}
+
+#h {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #555;
+}
+
+.four {
+    position: relative;
+    bottom: 15px;
+}
+
+.down {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1e90ff;
+    color: white;
+    padding: 30px 0;
+}
+
+.partners img {
+    padding: 0 10px;
+}
+
+.last button{
+    padding: 15px 30px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #87cefa;
+}
